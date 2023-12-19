@@ -50,8 +50,8 @@ console.log(mammals.length)
       />
     </div>
     <div className="card-title" key={mammal.name}>
-      <h3>Racoon</h3>
-      <p>{mammal.name}</p>
+      <h3>{mammal.name}</h3>
+     
     </div>
   </div>
      </> )
