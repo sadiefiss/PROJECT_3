@@ -11,12 +11,12 @@ const App = () => {
 
   return (
  <> 
-  <div>
+   <div>
      <h1>
       <a href='/'> Native Pennsylvania Mammals</a>  
-      <Mammals name={'raccoon'}/> 
+   
      </h1>
-    </div> 
+    </div>  
 
    <main> 
 

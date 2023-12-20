@@ -1,38 +1,10 @@
 /* eslint-disable react/prop-types */
-import  { useState, useEffect } from "react"; 
-import { Link } from 'react-router-dom' 
-const apiKey = import.meta.env.VITE_REACT_API_KEY;
-const Mammals = ({name}) => {
+//import  { useState } from "react"; 
+//const apiKey = import.meta.env.VITE_REACT_API_KEY;
+// eslint-disable-next-line no-empty-pattern
+const Mammals = ({}) => {
   // Set up state for mammals data
-  const [mammals, setMammalsData] = useState([]);
-
-// Simulating data fetching with a setTimeout
-    const fetchMammals = async () => { 
-console.log(apiKey)
-        const url = `https://animals-by-api-ninjas.p.rapidapi.com/v1/animals?name=${name}`;
-        const options = {
-            method: 'GET',
-            headers: {
-                'X-RapidAPI-Key':`${apiKey}`,
-                'X-RapidAPI-Host': 'animals-by-api-ninjas.p.rapidapi.com'
-            }
-        };
-        
-        try {
-            const response = await fetch(url, options);
-            const result = await response.json();
-            setMammalsData(result);
-        } catch (error) {
-            console.error(error);
-        }       
-    }
-  
-console.log(mammals)
-console.log(mammals.length)
-   useEffect(() =>  {
-    fetchMammals(); // Call the fetchMammals function
-
-}, []); // The empty dependency array ensures that useEffect runs only once on component mount
+  //const [mammals, setMammalsData] = useState([]);
 
      return ( 
       <div>
@@ -44,33 +16,33 @@ console.log(mammals.length)
 
       <div>
         <a href="/details/bobcat">
-          <img src="/images/bobcat-4656314_1280.jpg" alt="Bobcat" />
+          <img src="/images/bobcat.jpg" alt="Bobcat" />
         </a>
       </div>
 
       <div>
-        <a href="/details/eastern-cotton-tail">
-          <img src="/images/bunny-6187026_1280.jpg" alt="Eastern Cotton Tail" />
+        <a href="/details/opossum">
+          <img src="/images/opossum.jpg" alt="opossum" />
         </a>
       </div>
 
       <div>
         <a href="/details/coyote">
-          <img src="/images/coyote-7143398_1280.jpg" alt="Coyote" />
+          <img src="/images/coyote.jpg" alt="Coyote" />
         </a>
       </div>
 
       <div>
         <a href="/details/white-tail-deer">
-          <img src="/images/deer-5386973_1280.jpg" alt="White Tail Deer" />
+          <img src="/images/whitetaildeer.jpg" alt="White Tail Deer" />
         </a>
       </div>
 
       <div>
-        <a href="/details/eastern-gray-squirrel">
+        <a href="/details/squirrel">
           <img
-            src="/images/eastern-gray-squirrel-4586908_1280.jpg"
-            alt="Eastern Gray Squirrel"
+            src="/images/squirrel.jpg"
+            alt="Squirrel"
           />
         </a>
       </div>
