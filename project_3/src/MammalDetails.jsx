@@ -41,12 +41,12 @@ return(
 {
 mammal.map ((mammal) => (   
 
-<>
+    <div key={mammal.name}>
 <div className="card-image">
           <img src={mammal.image} alt={mammal.name} />
         </div>
         <div className="card-title">
-          <div key={mammal.name}>
+          {/* <div key={mammal.name}> */}
           
           <h3>Diet: {mammal.characteristics.diet}</h3>
         <h4>Characteristics:</h4>
@@ -91,7 +91,7 @@ mammal.map ((mammal) => (
         </a>
         </div>
         </div>
-        </>
+        
 ))
 }
     </section>  
