@@ -2,6 +2,7 @@
 //import  { useState } from "react"; 
 //const apiKey = import.meta.env.VITE_REACT_API_KEY;
 // eslint-disable-next-line no-empty-pattern
+import './Mammals.css';
 const Mammals = ({}) => {
   // Set up state for mammals data
   //const [mammals, setMammalsData] = useState([]);

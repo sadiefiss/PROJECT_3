@@ -11,8 +11,8 @@ const App = () => {
 
   return (
  <> 
-   <div>
-     <h1>
+   <div id='header'>
+     <h1 className='text-orange-500'>
       <a href='/'> Native Pennsylvania Mammals</a>  
    
      </h1>
