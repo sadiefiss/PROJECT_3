@@ -29,11 +29,7 @@ const App = () => {
       </div>  
 
       <main className="py-4"> 
-        <Routes> 
-    
-          <Route path="/" element={<Mammals />} /> 
-          <Route path="/details/:name" element={<MammalDetails />} /> 
-        </Routes>
+      
       </main>
     </> 
   );

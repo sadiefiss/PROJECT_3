@@ -37,7 +37,7 @@ const MammalDetails = () => {
 // 2: Use Effect hook to fetch data on component mount
     useEffect(() => {
         fetchMammal();
-    }, [name]);
+    }, []);
 // Load state
     if (!mammal) {
         return <p className="text-center">Loading mammal info...</p>;

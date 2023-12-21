@@ -76,7 +76,24 @@ const Mammals = () => {
             <a href="/details/squirrel">
               <img src="/images/squirrel.jpg" alt="Squirrel" className='w-full h-auto rounded-lg hover:scale-110 transition-transform duration-300' />
             </a>
-          </div>
+          </div> 
+
+
+
+          {/* Black Bear */}
+          <div>
+            <a href="/details/ American black bear">
+              <img src="/images/blackbear.jpg" alt=" American Black Bear" className='w-full h-auto rounded-lg hover:scale-110 transition-transform duration-300' />
+            </a>
+          </div>  
+          
+
+          {/* Wood Chuck */}
+          <div>
+            <a href="/details/woodchuck">
+              <img src="/images/woodchuck.jpg" alt="Wood Chuck" className='w-full h-auto rounded-lg hover:scale-110 transition-transform duration-300' />
+            </a>
+          </div> 
         </div>
       </div>
     </div>
