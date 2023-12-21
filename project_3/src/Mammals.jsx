@@ -1,87 +1,86 @@
-/* eslint-disable react/prop-types */
-//import  { useState } from "react"; 
-//const apiKey = import.meta.env.VITE_REACT_API_KEY;
-// eslint-disable-next-line no-empty-pattern
+
+
 import './Mammals.css';
-const Mammals = ({}) => {
-  // Set up state for mammals data
-  //const [mammals, setMammalsData] = useState([]);
 
-     return ( 
-      <div>
-      <div>
-        <a href="/details/beaver">
-          <img src="/images/beaver.jpg" alt="Beaver" />
-        </a>
+const Mammals = () => {
+  return ( 
+    <div className="bg-pink-100">
+      <div className='flex justify-center'>  
+        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4'>
+          {/* Beaver */}
+          <div>
+            <a href="/details/beaver">
+              <img src="/images/beaver.jpg" alt="Beaver" className='w-full h-auto rounded-lg hover:scale-110 transition-transform duration-300'/>
+            </a>
+          </div>
+
+          {/* Raccoon */}
+          <div>
+            <a href="/details/raccoon">
+              <img src="/images/raccoon.jpg" alt="Raccoon" className='w-full h-auto rounded-lg hover:scale-110 transition-transform duration-300' />
+            </a>
+          </div>
+
+ {/* Rabbit */}
+ <div>
+            <a href="/details/rabbit">
+              <img src="/images/rabbit.jpg" alt="Rabbit" className='w-full h-auto rounded-lg hover:scale-110 transition-transform duration-300' />
+            </a>
+          </div>
+
+          {/* Bobcat */}
+          <div>
+            <a href="/details/bobcat">
+              <img src="/images/bobcat.jpg" alt="Bobcat" className='w-full h-auto rounded-lg hover:scale-110 transition-transform duration-300'/>
+            </a>
+          </div>
+
+          {/* Opossum */}
+          <div>
+            <a href="/details/opossum">
+              <img src="/images/opossum.jpg" alt="opossum" className='w-full h-auto rounded-lg hover:scale-110 transition-transform duration-300' />
+            </a>
+          </div>
+
+          {/* Deer */}
+          <div>
+            <a href="/details/deer">
+              <img src="/images/deer.jpg" alt="Deer" className='w-full h-auto rounded-lg hover:scale-110 transition-transform duration-300' />
+            </a>
+          </div>
+
+          {/* Coyote */}
+          <div>
+            <a href="/details/coyote">
+              <img src="/images/coyote.jpg" alt="Coyote" className='w-full h-auto rounded-lg hover:scale-110 transition-transform duration-300' />
+            </a>
+          </div>
+
+          {/* River Otter */}
+          <div>
+            <a href="/details/river otter">
+              <img src="/images/riverotter.jpg" alt="River Otter" className='w-full h-auto rounded-lg hover:scale-110 transition-transform duration-300' />
+            </a>
+          </div>
+
+
+          {/* Red Fox */}
+          <div>
+            <a href="/details/red fox">
+              <img src="/images/redfox.jpg" alt="Red Fox" className='w-full h-auto rounded-lg hover:scale-110 transition-transform duration-300' />
+            </a>
+          </div> 
+          
+          {/* Squirrel */}
+          <div>
+            <a href="/details/squirrel">
+              <img src="/images/squirrel.jpg" alt="Squirrel" className='w-full h-auto rounded-lg hover:scale-110 transition-transform duration-300' />
+            </a>
+          </div>
+        </div>
       </div>
-
-      <div>
-        <a href="/details/bobcat">
-          <img src="/images/bobcat.jpg" alt="Bobcat" />
-        </a>
-      </div>
-
-      <div>
-        <a href="/details/opossum">
-          <img src="/images/opossum.jpg" alt="opossum" />
-        </a>
-      </div>
-
-      <div>
-        <a href="/details/coyote">
-          <img src="/images/coyote.jpg" alt="Coyote" />
-        </a>
-      </div>
-
-      <div>
-        <a href="/details/white-tail-deer">
-          <img src="/images/whitetaildeer.jpg" alt="White Tail Deer" />
-        </a>
-      </div>
-
-      <div>
-        <a href="/details/squirrel">
-          <img
-            src="/images/squirrel.jpg"
-            alt="Squirrel"
-          />
-        </a>
-      </div>
-
-
-
-
-    
-<section className="container">
-{/* { mammals.length > 0 && 
-<div>
-    {/* map over the array of mammals  */} 
-    {/* {mammals?.map(mammal => {
-      return (
-        <> 
-        <Link to={`/details/${mammal.name }`} >
-<div className="card">
-    <div className="card-image">
-      <img 
-      src="/images/raccoon-856705_1280.jpg"
-        alt="Racoon"
-      />
     </div>
-    <div className="card-title" key={mammal.name}>
-      <h3>{mammal.name}</h3>
-     
-    </div>
-  </div>
-  </Link>
-     </> )
-    })} 
-    </div> } */} 
-  
-</section>
-</div>
-
-  )
-}
-
+  );
+};
 
 export default Mammals;

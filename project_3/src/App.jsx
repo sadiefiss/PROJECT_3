@@ -1,31 +1,27 @@
 
-import { Route, Routes } from 'react-router-dom'
+
+import { Route, Routes } from 'react-router-dom';
 import Mammals from './Mammals';
 import MammalDetails from './MammalDetails';
-import './App.css'
+//import LandingPage from './LandingPage';
+import './App.css';
 
-
-const App = () => { 
-
-
-
+const App = () => {
   return (
- <> 
-   <div id='header'>
-     <h1 className='text-orange-500'>
-      <a href='/'> Native Pennsylvania Mammals</a>  
-   
-     </h1>
-    </div>  
+    <> 
+      <div id='header' className="bg-pink-100 text-center py-4 shadow-lg">
+        <h1 className='text-orange-500 text-4xl'>
+          <a href='/'> Native Pennsylvania Mammals</a>  
+        </h1>
+      </div>  
 
-   <main> 
-
-  <Routes> 
-     <Route path="/" element={ <Mammals /> } /> 
-     <Route path="/details/:name" element={ <MammalDetails />} /> 
-  </Routes>
-</main>
-
+      <main className="py-4"> 
+        <Routes> 
+        {/* <Route path="/" element={<LandingPage />} /> */}
+          <Route path="/" element={<Mammals />} /> 
+          <Route path="/details/:name" element={<MammalDetails />} /> 
+        </Routes>
+      </main>
     </> 
   );
 };

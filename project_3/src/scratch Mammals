@@ -1,0 +1,106 @@
+// /* eslint-disable react/prop-types */
+// //import  { useState } from "react"; 
+// //const apiKey = import.meta.env.VITE_REACT_API_KEY;
+// // eslint-disable-next-line no-empty-pattern
+// import './Mammals.css';
+
+
+
+// const Mammals = ({}) => {
+//   // Set up state for mammals data
+//   //const [mammalsrounded-lg hover:scale-110 transition-transform duration-300 setMammalsData] = useState([]);
+
+//      return ( 
+//       <div className="bg-blue-500">
+//      <div className='flex justify-center'>  
+//       <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 ' >
+//       <div>
+//         <a href="/details/beaver">
+//           <img src="/images/beaver.jpg" alt="Beaver"  className='w-80 h-auto rounded-lg hover:scale-110 transition-transform duration-300'/>
+//         </a>
+//       </div>
+
+//       <div>
+//         <a href="/details/raccoon">
+//           <img src="/images/raccoon.jpg" alt="Raccoon" className='w-80 h-auto rounded-lg hover:scale-110 transition-transform duration-300' />
+//         </a>
+//       </div>
+
+//       <div>
+//         <a href="/details/bobcat">
+//           <img src="/images/bobcat.jpg" alt="Bobcat" className='w-80 h-auto rounded-lg hover:scale-110 transition-transform duration-300'/>
+//         </a>
+//       </div>
+
+//       <div>
+//         <a href="/details/opossum">
+//           <img src="/images/opossum.jpg" alt="opossum" className='w-80 h-auto rounded-lg hover:scale-110 transition-transform duration-300 ' />
+//         </a>
+//       </div>
+
+
+//       <div>
+//         <a href="/details/deer">
+//           <img src="/images/deer.jpg" alt="Deer" className='w-80 h-auto rounded-lg hover:scale-110 transition-transform duration-300' />
+//         </a>
+//       </div>
+
+//       <div>
+//         <a href="/details/coyote">
+//           <img src="/images/coyote.jpg" alt="Coyote" className='w-80 h-auto rounded-lg hover:scale-110 transition-transform duration-300' />
+//         </a>
+//       </div>
+
+//       <div>
+//         <a href="/details/river otter">
+//           <img src="/images/riverotter.jpg" alt="River Otter" className='w-80 h-auto rounded-lg hover:scale-110 transition-transform duration-300' />
+//         </a>
+//       </div>
+
+//       <div>
+//         <a href="/details/squirrel">
+//           <img
+//             src="/images/squirrel.jpg"
+//             alt="Squirrel" className='w-80 h-auto rounded-lg hover:scale-110 transition-transform duration-300'
+//           />
+//         </a>
+//       </div>
+
+
+
+
+    
+// <section className="container">
+// {/* { mammals.length > 0 && 
+// <div>
+//     {/* map over the array of mammals  */} 
+//     {/* {mammals?.map(mammal => {
+//       return (
+//         <> 
+//         <Link to={`/details/${mammal.name }`} >
+// <div className="card">
+//     <div className="card-image">
+//       <img 
+//       src="/images/raccoon-856705_1800.jpg"
+//         alt="Racoon"
+//       />
+//     </div>
+//     <div className="card-title" key={mammal.name}>
+//       <h3>{mammal.name}</h3>
+     
+//     </div>
+//   </div>
+//   </Link>
+//      </> )
+//     })} 
+//     </div> } */} 
+  
+// </section>
+// </div>
+// </div>
+// </div>
+//   )
+// }
+
+
+// export default Mammals; 
