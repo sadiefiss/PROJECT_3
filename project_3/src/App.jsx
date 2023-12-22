@@ -24,7 +24,7 @@ const App = () => {
 
       <div id='header' className="bg-pink-100 text-center py-4 shadow-lg">
         <h1 className='text-black text-4xl 	accent-color: transparent;'>
-          <a href='/'> Native Pennsylvania Mammals;</a>  
+          <a href='/mammals'> Native Pennsylvania Mammals;</a>  
         </h1>
       </div>  
 

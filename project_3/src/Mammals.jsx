@@ -1,5 +1,4 @@
 
-
 import './Mammals.css';
 
 const Mammals = () => {
