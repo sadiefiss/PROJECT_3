@@ -1,6 +1,6 @@
 # main_app/views.py
 
-from django.shortcuts import render
+from django.shortcuts import get_object_or_404, render
 from .models import Finch
 
 finches = [
@@ -22,5 +22,6 @@ def about(request):
 # FINCH DETAIL
 # finch_id is the parameter name we specified in urls.py
 def finches_detail(request, finch_id):
-    finches = Finch.objects.get(id=finch_id)
+    finch = get_object_or_404(Finch, pk=finch_id)
+    #finch = Finch.objects.get(id=finch_id)
     return render(request, 'finches/detail.html', { 'finch': finch })

@@ -5,6 +5,11 @@
   <h1>Finch List</h1>
   {% for finch in finches %}
     <div class="card">
+      <a href="{% url 'finches_detail' finch.id %}">
+        
+
+      
+      
       <div class="card-content">
         <span class="card-title">{{ finch.name }}</span>
         <p>Description: {{ finch.description }}</p>
